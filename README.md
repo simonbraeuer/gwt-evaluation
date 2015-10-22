@@ -2,8 +2,16 @@
 
 Evaluation of new gwt version 2.8 (SNAPSHOT from 22.10.2015)
 
+This example shows how to evaluate gwt version 2.8.0. 
 
-- copy folder "eval/com/google/gwt" into your maven repository
+Technology stack:
+- Version: Mars.1 Release (4.5.1) Build id: 20150924-1200
+- gwt version 2.8 (SNAPSHOT from 22.10.2015)
+- apache-maven-3.1.1
+
+Steps:
+- copy folder "eval" (subfolder of maven) into your local maven repository
+- use folder "gwt-2.8.0-SNAPSHOT" (subfolder of eclipse)as your local gwt repository in eclipse
 - then use following dependencies in pom file
 
 		dependency>
